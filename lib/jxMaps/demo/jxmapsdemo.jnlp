@@ -1,0 +1,38 @@
+<jnlp spec="1.6+" codebase="http://teamdev.com/">
+    <information>
+        <title>JxMaps Demo</title>
+        <vendor>TeamDev Ltd.</vendor>
+        <homepage href="http://www.teamdev.com/jxmaps"/>
+        <description>JxMaps Demo Application</description>
+        <description kind="short">JxMaps Demo Application</description>
+        <icon href="images/pad-jxmaps.png" width="32" height="32"/>
+        <offline-allowed/>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <application-desc main-class="com.teamdev.jxmaps.demo.JxMapsDemo"/>
+
+    <resources>
+        <jar href="lib/jxmapsdemo.jar" main="true"/>
+      	<jar href="lib/jxmaps-1.2.jar"/>
+    </resources>
+
+    <resources os="Windows">
+        <jar href="lib/jxmaps-win-1.2.jar"/>
+    </resources>
+
+    <resources os="Mac OS X">
+        <jar href="lib/jxmaps-mac-1.2.jar"/>
+    </resources>
+
+    <resources os="Linux" arch="ppc i386 i686">
+        <jar href="lib/jxmaps-linux32-1.2.jar"/>
+    </resources>
+
+    <resources os="Linux" arch="x86_64 amd64">
+        <jar href="lib/jxmaps-linux64-1.2.jar"/>
+    </resources>
+</jnlp>

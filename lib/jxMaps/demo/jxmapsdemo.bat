@@ -1,0 +1,1 @@
+java -Dfile.encoding=UTF-8 -classpath ../lib/jxmaps-win-1.2.jar;../lib/jxmaps-1.2.jar;jxmapsdemo.jar com.teamdev.jxmaps.demo.JxMapsDemo
