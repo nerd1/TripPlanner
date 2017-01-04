@@ -1,3 +1,3 @@
-# Semesterarbeit "Trip Planner"
-# Dieter Biedermann, Reto Kaufmann, 2017/01
-Hallo 
+# Semesterarbeit "Trip Planner", IBW Chur 2017/01
+# Dieter Biedermann, Reto Kaufmann
+Hallo ...
